@@ -8,11 +8,7 @@ Welcome to the MyTodos Application! This is a secure and user-friendly web appli
 - [Features](#features)
 - [Live Demo](#live-demo)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
