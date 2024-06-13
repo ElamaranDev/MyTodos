@@ -19,17 +19,15 @@ const Hero = () => {
 
         <div className="action-area">
           {userInfo ? (
-            <NavLink to={"/todos"}>
-              <button className="hero-button">
-                <i className="fas fa-tasks"></i> View Todos
-              </button>
+            <NavLink className={"hero-btn-a"} to={"/todos"}>
+              <button className="hero-button-view-todo">View Todos</button>
             </NavLink>
           ) : (
             <>
-              <NavLink to={"/login"}>
+              <NavLink className={"hero-btn-a"} to={"/login"}>
                 <button className="hero-button-sign-in">Sign In</button>
               </NavLink>
-              <NavLink to={"/register"}>
+              <NavLink className={"hero-btn-a"} to={"/register"}>
                 <button className="hero-button-sign-up">Sign Up</button>
               </NavLink>
             </>

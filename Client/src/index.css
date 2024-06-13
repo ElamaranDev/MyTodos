@@ -190,6 +190,11 @@ h6 {
   margin-top: 20px;
 }
 
+.hero-btn-a {
+  outline: none;
+  text-decoration: none;
+}
+
 .hero-button-sign-in {
   border: none;
   background-color: #0072be;
@@ -203,6 +208,8 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  outline: none;
+
 
   &:hover {
     opacity: 0.8;
@@ -226,6 +233,32 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  outline: none;
+
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+.hero-button-view-todo {
+  border: none;
+  background-color: green;
+  margin: 5px;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
 
   &:hover {
     opacity: 0.8;
